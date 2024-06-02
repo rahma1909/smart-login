@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>login</title>
+  </head>
+  <body>
+    <div class="con d-flex justify-content-center align-items-center">
+      <div class="container text-center w-50 my-5">
+        <h1 class="py-3 h1">smart login system</h1>
+        <div class="mb-3 ">
+            <label for="inputName" class="form-label"></label>
+            <input
+              type="text"
+              class="form-control d-none"
+              id="inputName"
+              placeholder="Enter your name"
+            />
+          </div>
+        <div class="mb-3">
+          <label for="input1" class="form-label"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="input1"
+            placeholder="Email address"
+          />
+        </div>
+        <div class="mb-3 pb-4">
+          <label for="input2" class="form-label"></label>
+          <input
+            type="password"
+            class="form-control"
+            id="input2"
+            placeholder="password"
+          />
+        </div>
+       <h5 class="heading d-none">successed</h5>
+        <button id="btn" class="button">login</button>
+        <button id="btnn" class="button d-none">sign up</button>
+        <h5 class="h5">don't have an account? <a class="signup" href="#">sign up</a></h5>
+        <h5 class="h5 "><a class="login d-none" href="#">login</a></h5>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+body{
+ 
+  background-color: lightgray;
+  height:100vh
+}
+.container{
+    background-color: plum;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+   
+    
+}
+.h1{
+    color:white;
+    font-family: "Sevillana", cursive;
+}
+.button{
+    background-color: white;
+    padding:2px 200px;
+    color: gray;
+    border-color:white;
+    border-radius: 10px;
+
+}
+.h5{
+    font-size: smaller;
+    margin:20px;
+    color:white;
+    font-family: "Sevillana", cursive;
+}
+.h5 a{
+    color:white;
+    text-decoration: none;
+}
+.h5 a:hover{
+    text-decoration: underline;
+}
